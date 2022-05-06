@@ -1,13 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
+
 @layer base {
   @font-face {
-    font-family: "CalSans";
-    src: url("/assets/CalSans/CalSans.ttf");
+    font-family: 'CalSans';
+    src: url('/assets/CalSans/CalSans.ttf');
   }
   @font-face {
-    font-family: "Inter";
-    src: url("/assets/Inter/Inter.ttf");
+    font-family: 'Inter';
+    src: url('/assets/Inter/Inter.ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter-bold';
+    src: url('/assets/Inter/Inter-Bold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter-medium';
+    src: url('/assets/Inter/Inter-Medium.ttf');
   }
 }

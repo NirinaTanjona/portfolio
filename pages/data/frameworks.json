@@ -1,0 +1,28 @@
+{
+  "tools": [
+    {
+      "title": "react",
+      "url": "http://reactjs.org",
+      "image": "/assets/images/react.svg",
+      "category": "frontend"
+    },
+    {
+      "title": "next",
+      "url": "http://nextjs.org",
+      "image": "/assets/images/next.svg",
+      "category": "frontend"
+    },
+    {
+      "title": "node",
+      "url": "http://node.org",
+      "image": "/assets/images/nodejs.svg",
+      "category": "backend"
+    },
+    {
+      "title": "docker",
+      "url": "http://docker.org",
+      "image": "/assets/images/docker.svg",
+      "category": "devOps"
+    }
+  ]
+}

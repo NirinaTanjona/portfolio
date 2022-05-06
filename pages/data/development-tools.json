@@ -1,0 +1,22 @@
+{
+  "tools": [
+    {
+      "title": "Visual Studio Code",
+      "url": "https://code.visualstudio.com/",
+      "image": "/assets/images/vsc.svg",
+      "category": "development"
+    },
+    {
+      "title": "Obsidian",
+      "url": "https://obsidian.md/",
+      "image": "/assets/images/obsidian.svg",
+      "category": "production"
+    },
+    {
+      "title": "figma",
+      "url": "https://figma.com",
+      "image": "/assets/images/figma.svg",
+      "category": "design"
+    }
+  ]
+}
