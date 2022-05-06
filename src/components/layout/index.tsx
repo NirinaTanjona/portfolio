@@ -1,9 +1,7 @@
-import { PropsWithChildren } from 'react'
 import { Header } from './header'
+import { Children as ChildrenType } from '@/types/children'
 
-type Props = PropsWithChildren<{ children?: React.ReactNode | undefined }>
-
-const Layout = ({ children }: Props) => {
+const Layout = ({ children }: ChildrenType) => {
   return (
     <div className="relative text-slate-800">
       <Header />

@@ -1,11 +1,6 @@
-import {
-  FACEBOOK_PROFIL,
-  TWITTER_PROFIL,
-  GITHUB_PROFIL,
-  LINKEDIN_PROFIL,
-} from '../../constants'
-import { Link as LinkType } from '../../types/link'
-import { ExternalLink } from '../button-link'
+import { FACEBOOK_PROFIL, TWITTER_PROFIL, GITHUB_PROFIL, LINKEDIN_PROFIL } from '@/constants'
+import { Link as LinkType } from '@/types/link'
+import { ExternalLink } from '@/components/button-link'
 
 type SocialLink = LinkType & { color?: string }
 
