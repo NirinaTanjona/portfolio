@@ -1,13 +1,12 @@
-import { Header } from './header'
-import { Children as ChildrenType } from '@/types/children'
+import Main from './main'
+import Header from './header'
+import { Children } from '@/types/children'
 
-const Layout = ({ children }: ChildrenType) => {
+export default function Layout({children}: Children) {
   return (
-    <div className="relative text-slate-800">
+    <div className="text-slate-800">
       <Header />
-      <div className="font-body max-w-3xl mx-auto p-4 lg:p-0">{children}</div>
+      <Main>{children}</Main>
     </div>
   )
 }
-
-export default Layout

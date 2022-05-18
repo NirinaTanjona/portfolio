@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import { Hero } from '../../src/components/hero';
-import BlogPostSection from '../../src/components/blog-post-section';
-import SkillSection from '../../src/components/skill-section';
+import BlogPostSection from '@/components/blog-post-section';
+import { SkillSection } from '@/components/skill-section';
 
 const Home: NextPage = () => {
   return (

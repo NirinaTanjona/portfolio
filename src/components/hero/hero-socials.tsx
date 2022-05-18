@@ -23,9 +23,9 @@ const socialLinks: SocialLink[] = [
   },
 ]
 
-const HeroSocials = () => {
+export default function HeroSocials() {
   return (
-    <div className="flex flex-wrap space-x-3">
+    <div className="flex flex-row space-x-4">
       {socialLinks.map(({ href, label, color }) => (
         <ExternalLink key={href} href={href} label={label}>
           {label}
@@ -34,5 +34,3 @@ const HeroSocials = () => {
     </div>
   )
 }
-
-export default HeroSocials

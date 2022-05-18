@@ -1,5 +1,5 @@
 {
-  "tools": [
+  "skills": [
     {
       "title": "react",
       "url": "http://reactjs.org",
@@ -17,6 +17,11 @@
       "url": "http://node.org",
       "image": "/assets/images/nodejs.svg",
       "category": "backend"
+    },
+    {
+      "title": "ruby on rails",
+      "url": "http://rubyonrails",
+      "image": "/assets/images/rails.svg"
     },
     {
       "title": "docker",
